@@ -2,4 +2,6 @@
 
 Set up steps for oh my posh terminal prompt
 
-## 
+
+
+## Installing windows terminal
