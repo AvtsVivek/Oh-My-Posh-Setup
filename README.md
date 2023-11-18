@@ -10,6 +10,10 @@ For Visual Studio Code, do this.
 
 https://youtu.be/VT2L1SXFq9U?t=2021
 
+## Fonts
+1. https://ohmyposh.dev/docs/installation/fonts#installation
+2. https://ohmyposh.dev/docs/installation/fonts#configuration
+
 ## References
 1. Scott Hanselman Windows Terminal
 
