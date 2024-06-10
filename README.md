@@ -6,9 +6,24 @@ Set up steps for oh my posh terminal prompt
 
 ## Installing windows terminal
 
-For Visual Studio Code, do this.
+## For Visual Studio Code, do this.
 
 https://youtu.be/VT2L1SXFq9U?t=2021
+
+## For Microsoft Visual Studio do the following.
+
+To open terminal.
+![View Menu in Visual Studio](50_50_VisualStudio_View.jpg)
+
+You have the terminal
+
+![The powershell terminal is here](51_50_PowerShell.jpg)
+
+Tool -> Options
+
+![The terminal Fonts](52_50_Tools_Options_Fonts.jpg)
+
+
 
 ## Fonts
 1. https://ohmyposh.dev/docs/installation/fonts#installation
