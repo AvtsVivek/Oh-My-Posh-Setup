@@ -104,4 +104,13 @@ Tool -> Options
 
 9. https://www.hanselman.com/blog/spend-less-time-cding-around-directories-with-the-powershell-z-shortcut
 
-10. 
+10. The Themes folder is as follows.
+   
+   C:\Users\koppviv\AppData\Local\Programs\oh-my-posh\themes\
+   
+11. Scott Hanselman 
+    1.  https://gist.github.com/shanselman   
+
+
+
+
