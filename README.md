@@ -36,11 +36,13 @@ Set up steps for oh my posh terminal prompt
 
 ![Windows Terminal Settings](49_65_WtSettingsApperiance.jpg)
 
-4. Install zee or z
+4. Install modules [PSReadLine](https://www.powershellgallery.com/packages/PSReadLine/), [Terminal-Icons](https://www.powershellgallery.com/packages/Terminal-Icons) and [z](https://www.powershellgallery.com/packages/z)
+5. 
+6. Install zee or z
    1. https://www.hanselman.com/blog/spend-less-time-cding-around-directories-with-the-powershell-z-shortcut
    2. https://youtu.be/VT2L1SXFq9U?t=2576
 
-5. Configure Oh-My-Posh to start up when terminal starts.
+7. Configure Oh-My-Posh to start up when terminal starts.
 https://youtu.be/NaHgtHnOPi8?t=130
 
 1. Create a powershell profile. Type $profile on the terminal
