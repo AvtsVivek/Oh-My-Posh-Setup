@@ -32,8 +32,9 @@ Set up steps for oh my posh terminal prompt
 
 ![Windows Terminal Settings](49_55_WtSettings.jpg)
 
-![Windows Terminal Settings](49_60_WtSettings.jpg)
+![Windows Terminal Settings](49_60_WtSettingsDefaultProfile.jpg)
 
+![Windows Terminal Settings](49_65_WtSettingsApperiance.jpg)
 
 4. Install zee or z
    1. https://www.hanselman.com/blog/spend-less-time-cding-around-directories-with-the-powershell-z-shortcut
