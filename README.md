@@ -54,19 +54,13 @@ Set up steps for oh my posh terminal prompt
 9. Create a powershell profile. Type $profile on the terminal
    1.  start $HOME\Documents\PowerShell\
 
-10. 
-
-The profile is here.
-
-C:\Users\YourUserName\Documents\PowerShell
+10. The profile is here.
+    1.  C:\Users\YourUserName\Documents\PowerShell
 
 ![Powershell Profile](53_50_ProwerShellProfile.jpg)
 
-
-Look for segments in the following.
-
-https://ohmyposh.dev/docs/themes
-
+11. Look for segments in the following.
+    1.  https://ohmyposh.dev/docs/themes
 
 
 
