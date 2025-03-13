@@ -51,9 +51,10 @@ Set up steps for oh my posh terminal prompt
 8. Configure Oh-My-Posh to start up when terminal starts.
    https://youtu.be/NaHgtHnOPi8?t=130
 
-1. Create a powershell profile. Type $profile on the terminal
+9. Create a powershell profile. Type $profile on the terminal
+   1.  start $HOME\Documents\PowerShell\
 
-2. 
+10. 
 
 The profile is here.
 
