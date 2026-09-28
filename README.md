@@ -28,13 +28,13 @@ Set up steps for oh my posh terminal prompt
 
    Download the zip file of your choice, unzip, select them all and install.
 
-![Install Fonts](49_50_InstallFonts.jpg)
+![Install Fonts](images/49_50_InstallFonts.jpg)
 
-![Windows Terminal Settings](49_55_WtSettings.jpg)
+![Windows Terminal Settings](images/49_55_WtSettings.jpg)
 
-![Windows Terminal Settings](49_60_WtSettingsDefaultProfile.jpg)
+![Windows Terminal Settings](images/49_60_WtSettingsDefaultProfile.jpg)
 
-![Windows Terminal Settings](49_65_WtSettingsApperiance.jpg)
+![Windows Terminal Settings](images/49_65_WtSettingsApperiance.jpg)
 
 4. Install modules [PSReadLine](https://www.powershellgallery.com/packages/PSReadLine/), [Terminal-Icons](https://www.powershellgallery.com/packages/Terminal-Icons) and [z](https://www.powershellgallery.com/packages/z)
 
@@ -57,7 +57,7 @@ Set up steps for oh my posh terminal prompt
 10. The profile is here.
     1.  C:\Users\YourUserName\Documents\PowerShell
 
-![Powershell Profile](53_50_ProwerShellProfile.jpg)
+![Powershell Profile](images/53_50_ProwerShellProfile.jpg)
 
 11. Look for segments in the following.
     1.  https://ohmyposh.dev/docs/themes
@@ -73,15 +73,15 @@ https://youtu.be/VT2L1SXFq9U?t=2021
 ## For Microsoft Visual Studio do the following.
 
 To open terminal.
-![View Menu in Visual Studio](50_50_VisualStudio_View.jpg)
+![View Menu in Visual Studio](images/50_50_VisualStudio_View.jpg)
 
 You have the terminal
 
-![The powershell terminal is here](51_50_PowerShell.jpg)
+![The powershell terminal is here](images/51_50_PowerShell.jpg)
 
 Tool -> Options
 
-![The terminal Fonts](52_50_Tools_Options_Fonts.jpg)
+![The terminal Fonts](images/52_50_Tools_Options_Fonts.jpg)
 
 ## Fonts
 1. https://ohmyposh.dev/docs/installation/fonts#installation
