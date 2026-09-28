@@ -29,8 +29,9 @@ set-alias desktop "Desktop.ps1"
 # oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\illusi0n.json" | Invoke-Expression # Problem
 # oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression # Problem
 # oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\jv_sitecorian.omp.json" | Invoke-Expression # Problem
-oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\ohmyposhv3-v2.json" | Invoke-Expression 
+# oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\ohmyposhv3-v2.json" | Invoke-Expression 
 # oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\capr4n.omp.json" | Invoke-Expression # Problem
+oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\ohmyposhv3-v2.json" | Invoke-Expression # Problem
 # oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\agnosterplus.omp.json" | Invoke-Expression 
 # oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\lightgreen.omp.json" | Invoke-Expression 
 # oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH\jv_sitecorian.omp.json" | Invoke-Expression # Problem
