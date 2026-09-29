@@ -120,3 +120,12 @@ C:\Users\koppviv\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 C:\Users\koppviv\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 C:\Users\koppviv\OneDrive - Baker Hughes\Trials\Ex\OhMyPoshSetup\PowerShellProfileFiles\Microsoft.PowerShell_profile.ps1
 
+
+$PROFILE.AllUsersAllHosts
+
+$env:PSModulePath -split ';'
+
+$profile
+
+(Get-Command oh-my-posh.exe).Path
+
