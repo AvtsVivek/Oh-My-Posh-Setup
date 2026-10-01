@@ -121,6 +121,18 @@ C:\Users\koppviv\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 C:\Users\koppviv\OneDrive - Baker Hughes\Trials\Ex\OhMyPoshSetup\PowerShellProfileFiles\Microsoft.PowerShell_profile.ps1
 
 
+12. Do the following in Visual Studio.
+
+Tools -> Options -> All Settings -> Environment -> Terminal
+
+[Visual Studio Terminal Settings](images/55_50_VisualStudio_TerminalSettings.png)
+
+-NoExit -Command "& { $env:MY_ENV_VAR='my_value'; Import-Module """$env:VSAPPIDDIR\..\Tools\Microsoft.VisualStudio.DevShell.dll"""; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath $env:VSAPPIDDIR\..\..\}; Initialize-VsProfile"
+
+Initialize-VsProfile is the function in the profile file, which will be called in the end.
+
+13. The following are a few use full command that can be used in power shell.
+
 $PROFILE.AllUsersAllHosts
 
 $env:PSModulePath -split ';'
@@ -128,4 +140,5 @@ $env:PSModulePath -split ';'
 $profile
 
 (Get-Command oh-my-posh.exe).Path
+
 
