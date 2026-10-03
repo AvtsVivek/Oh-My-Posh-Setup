@@ -182,12 +182,21 @@ C:\Users\koppviv\OneDrive - Baker Hughes\Trials\Ex\OhMyPoshSetup\PowerShellProfi
 
 16. The following are some useful export import commands we can use to export keys
 
-# In the account that owns the key, run the following command to export it to key.asc file. This is a text file. 
-# Note XYZ1234567891011 is the key handle.
-gpg --output key.asc --armor --export-secret-keys XYZ1234567891011
+In the account that owns the key, run the following command to export it to key.asc file. This is a text file. 
+Note XYZ1234567891011 is the key handle.
 
-# In your current account, after securely transferring key.asc, run the following command to import it.
+```txt
+gpg --output key.asc --armor --export-secret-keys XYZ1234567891011
+```
+In your current account, after securely transferring key.asc, run the following command to import it.
+
+```txt
 gpg --import key.asc
-# Once imported, delete the key.asc file for security reasons.
-# To verify its imported property, run the following command.
+```
+
+To verify its imported property, run the following command.
+```txt
 gpg --list-secret-keys --keyid-format=long XYZ1234567891011
+```
+
+Once imported, delete the key.asc file for security reasons.
