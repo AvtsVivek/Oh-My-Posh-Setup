@@ -142,4 +142,5 @@ C:\Users\koppviv\OneDrive - Baker Hughes\Trials\Ex\OhMyPoshSetup\PowerShellProfi
 
 14. Trial with office pc singning
 
+15. Trial from home pc
 
