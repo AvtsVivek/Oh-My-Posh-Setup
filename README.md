@@ -140,7 +140,54 @@ C:\Users\koppviv\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 C:\Users\koppviv\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 C:\Users\koppviv\OneDrive - Baker Hughes\Trials\Ex\OhMyPoshSetup\PowerShellProfileFiles\Microsoft.PowerShell_profile.ps1
 
-14. Trial with office pc singning
+14. The following is a sample of config file inside of a .git folder of a git repository
 
-15. Trial from home pc
+```txt
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/AvtsVivek/Oh-My-Posh-Setup.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+```
 
+15. The following is a sample of global git repo for a user. For example, for a user called VivekSuper, it will be C:\Users\VivekSuper
+
+```txt
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Vivek Std
+#	email = VivekStd@VivekHomePC.(none)
+
+	signingkey = XYZ1234567891011   
+	name = Vivekanand Swamy Koppula
+	email = AaryavartTechSolutions@gmail.com
+[gpg]
+	program = C:/Program Files/GnuPG/bin/gpg.exe
+	format = openpgp
+
+[safe]
+	directory = D:/Vivek/OhMyPoshSetup
+
+```
+
+16. The following are some useful export import commands we can use to export keys
+
+# In the account that owns the key, run the following command to export it to key.asc file. This is a text file. 
+# Note XYZ1234567891011 is the key handle.
+gpg --output key.asc --armor --export-secret-keys XYZ1234567891011
+
+# In your current account, after securely transferring key.asc, run the following command to import it.
+gpg --import key.asc
+# Once imported, delete the key.asc file for security reasons.
+# To verify its imported property, run the following command.
+gpg --list-secret-keys --keyid-format=long XYZ1234567891011
